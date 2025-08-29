@@ -243,11 +243,18 @@ html {
   background-color: rgb(241, 244, 245);
 }
 
+.scrolled {
+  background-color: rgba(0, 0, 0, 0.5058823529);
+  border-radius: 0 0 20px 20px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
 .header {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  position: absolute;
+  position: fixed;
   z-index: 2;
   width: 100%;
   color: white;
@@ -1166,6 +1173,9 @@ main {
         -ms-flex-direction: column;
             flex-direction: column;
     gap: 50px;
+  }
+  .subnav {
+    display: none;
   }
   .hello-slider .owl-prev,
   .hello-slider .owl-next {
