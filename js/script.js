@@ -86,18 +86,6 @@ function openPopup() {
 }
 
 function mobMenu() {
+  console.log("mobMenu clicked"); // проверка
   $(".header__nav").toggleClass("active");
 }
-
-// Дополнительно можно добавить закрытие при клике вне меню
-$(document).on("click", function (e) {
-  var container = $(".header__nav");
-  if (!container.is(e.target) && container.has(e.target).length === 0) {
-    container.removeClass("active");
-  }
-});
-
-// Обработка клика по кнопке закрытия
-$(".close-menu").click(function () {
-  $(".header__nav").removeClass("active");
-});

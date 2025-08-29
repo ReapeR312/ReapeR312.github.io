@@ -113,14 +113,17 @@
 			position: fixed;
 			display: flex;
 			flex-direction: column;
-			right: -300px; /* Начальная позиция */
+			right: -300px;
 			top: 90px;
 			padding: 20px;
 			background: white;
 			color: rgb(54, 54, 54);
 			border-radius: 20px 0 0 20px;
+			transition: right 0.3s ease;
+			z-index: 1000;
+
 			&.active {
-				right: 0; /* Позиция при открытии */
+				right: 0;
 			}
 		}
 		&__menu {
@@ -129,7 +132,6 @@
 			gap: 50px;
 		}
 	}
-
 	.hello-slider {
 		.owl-prev,
 		.owl-next {
@@ -171,7 +173,6 @@
 		gap: 5.4%;
 
 		&__nav {
-			display: none;
 		}
 
 		&__logo img {
