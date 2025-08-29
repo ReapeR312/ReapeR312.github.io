@@ -59,7 +59,7 @@ $(".truncate-profile-authorized").each(function () {
 });
 
 $(".truncate-slider").each(function () {
-  var maxLength = 66;
+  var maxLength = 65;
   var text = $(this).text();
 
   if (text.length > maxLength) {

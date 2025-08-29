@@ -1135,7 +1135,30 @@ main {
     gap: 5.4%;
   }
   .header__nav {
-    display: none;
+    position: absolute;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    right: 0px;
+    top: 90px;
+    padding: 20px;
+    background: white;
+    color: rgb(54, 54, 54);
+    border-radius: 20px 0 0 20px;
+  }
+  .header__menu {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    gap: 50px;
   }
   .hello-slider .owl-prev,
   .hello-slider .owl-next {
