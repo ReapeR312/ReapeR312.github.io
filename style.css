@@ -285,7 +285,7 @@ html {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  gap: 29.1px;
+  gap: 30.1px;
 }
 .header__menu-item {
   cursor: default;
@@ -428,7 +428,7 @@ html {
   margin-top: 24px;
   margin-left: -14px;
   border-radius: 20px;
-  padding: 33px 6px 32px 30px;
+  padding: 35px 13px 32px 31px;
   gap: 16.7px;
   font-size: 14px;
   font-weight: 400;
@@ -1594,6 +1594,20 @@ main {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+  }
+  .subnav {
+    margin-top: 24px;
+    margin-left: -230px;
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+    overflow-y: scroll;
+  }
+  .subnav__item {
+    position: relative;
+    margin: 0 57.3px 0 0;
+  }
+  .triangle {
+    display: none;
   }
   .popup-overlay {
     position: fixed;

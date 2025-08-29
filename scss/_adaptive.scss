@@ -611,6 +611,22 @@
 	.bar-menu {
 		display: flex;
 	}
+	.subnav {
+		margin-top: 24px;
+		margin-left: -230px;
+		flex-wrap: nowrap;
+		overflow-y: scroll;
+		// .subnav__item
+
+		&__item {
+			position: relative;
+			margin: 0 57.3px 0 0;
+		}
+	}
+
+	.triangle {
+		display: none;
+	}
 
 	.popup-overlay {
 		position: fixed;
