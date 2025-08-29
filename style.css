@@ -765,13 +765,13 @@ main {
   text-transform: uppercase;
   font-weight: 700;
   border-radius: 10px;
-  padding: 4px 10px 4px 17px;
+  padding: 0px 10px 0px 17px;
   font-size: 13px;
   letter-spacing: 0.4px;
   -webkit-transition: 0.3s;
   transition: 0.3s;
 }
-.section-collections__title button img {
+.section-collections__title button svg {
   width: 36px;
 }
 .section-collections__title button:hover {
@@ -1133,6 +1133,12 @@ main {
     font-size: 14px;
     line-height: 20px;
   }
+  .section-collections__title button {
+    padding: 1px 9px 0px 18px;
+  }
+  .section-collections__title button svg {
+    width: 36px;
+  }
 }
 @media (max-width: 1100px) {
   .button__m-menu {
@@ -1290,9 +1296,13 @@ main {
     padding: 51px 0 0 0;
   }
   .section-collections__title button {
-    padding: 5px 11px 3px 19px;
-    gap: 0px;
+    padding: 6px 10px 5px 20px;
+    gap: 2px;
     letter-spacing: 1.2px;
+  }
+  .section-collections__title button svg {
+    width: 41px;
+    height: 41px;
   }
   .section-collections .item-1 {
     grid-column: 1;
@@ -1531,8 +1541,8 @@ main {
   }
   .section-collections__title button {
     position: absolute;
-    bottom: -7px;
-    padding: 8px 18px 9px 28px;
+    bottom: -6px;
+    padding: 10px 20px 9px 28px;
     gap: 0px;
     letter-spacing: 1.2px;
     font-size: 13px;
