@@ -110,7 +110,7 @@
 		gap: 5.4%;
 
 		&__nav {
-			position: absolute;
+			position: fixed;
 			display: flex;
 			flex-direction: column;
 			right: -300px; /* Начальная позиция */

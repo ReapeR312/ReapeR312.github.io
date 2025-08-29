@@ -483,6 +483,7 @@ html {
 
 main {
   position: relative;
+  overflow: hidden;
   padding: 0 20px;
 }
 
@@ -1136,7 +1137,7 @@ main {
     gap: 5.4%;
   }
   .header__nav {
-    position: absolute;
+    position: fixed;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
